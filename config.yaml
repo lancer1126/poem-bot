@@ -1,0 +1,20 @@
+system:
+  name: poem-bot
+zap:
+  directory: log
+mysql:
+  host: localhost
+  port: "3306"
+  db-name: poetry
+  username: xxx
+  password: xxx
+  config: charset=utf8mb4&parseTime=True&loc=Local
+  log-mode: error
+  max-idle-conn: 10
+  max-open-conn: 100
+  singular: false
+  log-zap: false
+bot:
+  dingtalk:
+    robot-token: xxx
+    secret: xxx

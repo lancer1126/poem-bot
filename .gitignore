@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+__debug_bin
+!*.example
+/config.yaml
+*.log
+/.env
+/.envrc
+/release
+/data
+/custom
+/.custom
+/run.sh
